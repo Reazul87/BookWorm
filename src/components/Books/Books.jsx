@@ -1,5 +1,5 @@
-import BookCard from "@/components/books/BookCard";
 import { books } from "@/data/Books";
+import BookCard from "./BookCard";
 
 export default async function BrowseBooks() {
 

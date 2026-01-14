@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
-import NavLink from "../buttons/NavLink";
 import Link from "next/link";
+import NavLink from "../Buttons/NavLink";
 
 const Navbar = () => {
   const links = (
