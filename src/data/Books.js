@@ -1,5 +1,6 @@
 export const books = [
   {
+    _id: 1,
     title: "The Midnight Library",
     author: "Matt Haig",
     genre: "Fantasy",
@@ -10,6 +11,7 @@ export const books = [
     averageRating: 4.5,
   },
   {
+    _id: 2,
     title: "Project Hail Mary",
     author: "Andy Weir",
     genre: "Sci-Fi",
@@ -20,6 +22,7 @@ export const books = [
     averageRating: 4.8,
   },
   {
+    _id: 3,
     title: "Atomic Habits",
     author: "James Clear",
     genre: "Self-Help",
@@ -30,6 +33,7 @@ export const books = [
     averageRating: 4.7,
   },
   {
+    _id: 4,
     title: "The Silent Patient",
     author: "Alex Michaelides",
     genre: "Thriller",
@@ -40,6 +44,7 @@ export const books = [
     averageRating: 4.2,
   },
   {
+    _id: 5,
     title: "Dune",
     author: "Frank Herbert",
     genre: "Sci-Fi",
@@ -50,6 +55,7 @@ export const books = [
     averageRating: 4.2,
   },
   {
+    _id: 6,
     title: "The Alchemist",
     author: "Paulo Coelho",
     genre: "Adventure",
@@ -60,6 +66,7 @@ export const books = [
     averageRating: 3.9,
   },
   {
+    _id: 7,
     title: "Deep Work",
     author: "Cal Newport",
     genre: "Self-Help",
@@ -70,6 +77,7 @@ export const books = [
     averageRating: 4.3,
   },
   {
+    _id: 8,
     title: "Sapiens",
     author: "Yuval Noah Harari",
     genre: "Non-Fiction",
@@ -80,6 +88,7 @@ export const books = [
     averageRating: 4.4,
   },
   {
+    _id: 9,
     title: "The Hobbit",
     author: "J.R.R. Tolkien",
     genre: "Fantasy",
@@ -90,6 +99,7 @@ export const books = [
     averageRating: 4.3,
   },
   {
+    _id: 10,
     title: "The Great Gatsby",
     author: "F. Scott Fitzgerald",
     genre: "Classic",

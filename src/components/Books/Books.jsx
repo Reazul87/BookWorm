@@ -1,21 +1,7 @@
 import BookCard from "@/components/books/BookCard";
-import BookFilters from "@/components/books/BookFilters";
 import { books } from "@/data/Books";
-// import clientPromise from "@/lib/mongodb";
-
-// async function getBooks() {
-//   const client = await clientPromise;
-//   const db = client.db();
-//   // Fetch books and genres in parallel
-//   const [books, genres] = await Promise.all([
-//     db.collection("books").find({}).toArray(),
-//     db.collection("genres").find({}).toArray(),
-//   ]);
-//   return { books, genres };
-// }
 
 export default async function BrowseBooks() {
-  // const { books, genres } = await getBooks();
 
   return (
     <main className="max-w-7xl mx-auto px-4 py-10">
@@ -27,9 +13,6 @@ export default async function BrowseBooks() {
           Discover your next favorite story
         </p>
       </div>
-
-      {/* Filters (In a real app, you'd make this a client component or use query params) */}
-      {/* <BookFilters genres={genres} /> */}
 
       {/* Books Grid */}
       {books.length > 0 ? (
